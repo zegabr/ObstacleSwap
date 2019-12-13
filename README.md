@@ -4,12 +4,20 @@ Este projeto foi feito para a disciplina de Introdução a Multimídia no CIn - 
 
 Grupo:
 Felipe Benjamin Mendonça Araújo
+
 José Gabriel Silva Pereira
+
 Lucas Silva de Mendonça
+
 Melissa Corrêa de Mesquita Falcão
+
 Pedro Ventura Coutinho
+
 Alex Sandro da Silva Anselmo Junior
+
 Gabriel Kristian Queiroz de Souza Jales
+
 Pedro de Melo Milet
+
 Adriano Felipe Cabral Filho
 
