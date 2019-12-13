@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - letal
+  - floor
+  - activator
   layers:
   - Default
   - TransparentFX
@@ -38,6 +41,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1738245097
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Trap
+    uniqueID: 1466222317
+    locked: 0
+  - name: Trap
+    uniqueID: 3619605613
     locked: 0
