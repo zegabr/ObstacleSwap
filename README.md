@@ -1,4 +1,4 @@
-O Obstacle Swap é um jogo plataforma 2d multiplayer com a premissa de fazer um game alternante, onde enquanto um player tenta chegar ao objetivo, outro player fica na espera ativando armadilhas. E em caso de falha, os players trocam de papel. Ganha quem chegar ao objetivo primeiro. Boa diversão!
+O Obstacle Swap é um jogo plataforma 2d multiplayer com a premissa de fazer um game alternante, onde enquanto um player tenta chegar ao objetivo, outro player fica na espera ativando armadilhas. E em caso de falha do jogador da vez, os players trocam de papel. Ganha quem chegar ao objetivo primeiro. Boa diversão!
 
 Este projeto foi feito para a disciplina de Introdução a Multimídia no CIn - UFPE, no semestre de 2019.2.
 
