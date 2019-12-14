@@ -5,7 +5,7 @@ using System;
 
 public class TrapActivator : MonoBehaviour
 {
-//----------------template pra adicionar soms
+//----------------template pra adicionar sons
     private AudioSource source;
     //sons aqui, criar uma variavel pra cada efeito sonoro e atualizar via interface unity
     public AudioClip somTrapActivation;
@@ -26,9 +26,8 @@ public class TrapActivator : MonoBehaviour
 //--------------------------------------------fim do template
 
 
-    public int id ;
-    bool active;
-    string spriteNames = "PressurePad_1";
+    private int id;
+    private bool active;
     int deactivateSprite = 1, activateSprite = 0;
     public Sprite[] sprites;
     private SpriteRenderer spriteRenderer;
@@ -64,11 +63,9 @@ public class TrapActivator : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            //stopSound();
             playSound(somTrapActivation);
             spriteRenderer.sprite = sprites[activateSprite];
             active = true;
-            //Debug.Log("apertou botao"); 
         }
     }
 
@@ -76,11 +73,9 @@ public class TrapActivator : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            //stopSound();
             playSound(somTrapDeactivation);
             spriteRenderer.sprite = sprites[deactivateSprite];
             active = false;
-            //Debug.Log("saiu do botao");
         }
     }
 

@@ -6,6 +6,23 @@ using UnityEditor;
 
 public class Game : MonoBehaviour
 {
+    //----------------template pra adicionar soms
+    private AudioSource source;
+    //sons aqui, criar uma variavel pra cada efeito sonoro e atualizar via interface unity
+    public AudioClip somTitulo;
+
+
+    void initAudio()
+    {//chamar no start
+        source = GetComponent<AudioSource>();
+    }
+
+    void playSound(AudioClip soundEffect)
+    {//chamar isso qnd quiser tocar sons
+        source.PlayOneShot(soundEffect, 1F);
+    }
+    //--------------------------------------------fim do template
+
     public static int turno, nPlayers;
     public static Vector3 inicio, castigo, playerPosition, camPosition, initialCamPosition;
     public static Vector3 inicio2;
@@ -13,20 +30,6 @@ public class Game : MonoBehaviour
     private static GameObject[] traps;
     private static List<bool> activeTraps;
 
-//----------------template pra adicionar soms
-    private AudioSource source;
-    //sons aqui, criar uma variavel pra cada efeito sonoro e atualizar via interface unity
-    public AudioClip somTitulo;
-
-
-    void initAudio(){//chamar no start
-        source = GetComponent<AudioSource>();
-    }
-
-    void playSound(AudioClip soundEffect){//chamar isso qnd quiser tocar sons
-        source.PlayOneShot(soundEffect, 1F);
-    }
-//--------------------------------------------fim do template
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +41,6 @@ public class Game : MonoBehaviour
 
     public static void startGame()
     {
-        Debug.Log("Começou o jogo");
         turno = 1;
         nPlayers = 2;
         inicio = new Vector3(-25F, -17.5F, 0);
@@ -49,7 +51,7 @@ public class Game : MonoBehaviour
         initialCamPosition = cam.transform.position;
         setTraps();
 
-        //-------------be aware of gambiarra
+        //-------------be aware of gambiarra (Player2 não estava iniciando corretamente no castigo)
         Player aux=GameObject.Find("Player2").GetComponent<Player>();
 
         aux.switchTurn();
@@ -85,7 +87,6 @@ public class Game : MonoBehaviour
         {
             activeTraps.Add(false);
         }
-        Debug.Log(activeTraps[0]);
     }
 
     public static bool isTrapActive(int id)

@@ -17,12 +17,10 @@ public class GravityInversor : Trap
         base.Update();
         if (active)
         {
-           // Debug.Log("Ativando anti-gravidade");
             activateTrap();
         }
         else
         {
-            //Debug.Log("Desativando anti-gravidade");
             deactivateTrap();
         }
     }

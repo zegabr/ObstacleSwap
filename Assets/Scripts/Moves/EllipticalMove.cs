@@ -16,7 +16,7 @@ public class EllipticalMove : Trap
     {
         base.Start();
         t = Vector3.Angle((initialPos - center), new Vector3(1, 0, 0));
-        initialPos = center + new Vector3( A * Mathf.Cos(t), B * Mathf.Sin(t), 0);
+        initialPos = center + new Vector3( A * Mathf.Cos(t), B * Mathf.Sin(t), 0); //Ajustando a posição inicial para dentro da elipse.
     }
 
     // Update is called once per frame
@@ -33,12 +33,15 @@ public class EllipticalMove : Trap
         }
     }
 
+    //Faz o movimento seguindo a elipse de eixos A e B com velocidade angular = velocity.
     private void move()
     {
         t+= velocity;
         gameObject.transform.position = center + new Vector3( A * Mathf.Cos(t), B * Mathf.Sin(t), 0);
     }
 
+
+    //Faz com que ele continue o movimento até alcançar a posição de origem
     private void returnToInitialPosition()
     {
         if (Vector3.Distance(initialPos, gameObject.transform.position) > 0.4)

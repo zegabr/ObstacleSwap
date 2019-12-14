@@ -12,10 +12,6 @@ public class LinearMove : Trap
     // Start is called before the first frame update
     void Start()
     {
-        //initialOffset = initialPos;
-        //finalOffset = finalPos;
-        //initialPos = gameObject.transform.position;
-        //finalPos = initialPos + (finalOffset - initialOffset);
         base.Start();
         gameObject.transform.position = initialPos;
         going = true;
@@ -25,7 +21,6 @@ public class LinearMove : Trap
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("Posição inicial:" + initialPos);
         currentPos = gameObject.transform.position;
         base.Update();
         if (active){

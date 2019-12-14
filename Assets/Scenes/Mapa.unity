@@ -173,7 +173,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1738245097
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: abda5725a6f5dd44596b6d18d291c4b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -311,7 +311,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1738245097
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: abda5725a6f5dd44596b6d18d291c4b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -648,7 +648,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -1132,7 +1131,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -1388,7 +1386,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -1965,7 +1962,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -2426,7 +2422,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1738245097
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: abda5725a6f5dd44596b6d18d291c4b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2763,7 +2759,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -3356,7 +3351,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -3613,8 +3607,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   active: 0
-  force: 0
   somRampa: {fileID: 8300000, guid: 4d2a803708481b94b888ad642152ed3b, type: 3}
+  force: 0
 --- !u!60 &277435483
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3680,8 +3674,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -675361683
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e9be7925c5e3f814899789b692c1e60d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4271,7 +4265,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1738245097
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: abda5725a6f5dd44596b6d18d291c4b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4842,7 +4836,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -5686,7 +5679,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -5942,7 +5934,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -7365,7 +7356,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -8130,8 +8120,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   active: 0
-  force: 0
   somRampa: {fileID: 8300000, guid: 4d2a803708481b94b888ad642152ed3b, type: 3}
+  force: 0
 --- !u!60 &697404444
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8197,8 +8187,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -675361683
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e9be7925c5e3f814899789b692c1e60d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -30097,13 +30087,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b913bee8175a3024fa0215569d348c8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: 
-  id: 0
-  velocidade: 0
-  onTheGround: 0
-  alive: 0
-  invertSense: 0
-  rigidbody: {fileID: 0}
   somPulo: {fileID: 8300000, guid: 0b43f58e200dd124d9e1e5e6837fa311, type: 3}
   somMorte: {fileID: 8300000, guid: cbf367db5cae81b42a5c6e540d2c1f82, type: 3}
   somTombo: {fileID: 8300000, guid: 245f7f5e6dc39be4fb78515499d3f8fd, type: 3}
@@ -31559,7 +31542,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -32240,8 +32222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   active: 0
-  force: 0
   somRampa: {fileID: 8300000, guid: e8e0f63b77eed9e4593a02f6031abfdf, type: 3}
+  force: 0
 --- !u!60 &1067226500
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -32307,8 +32289,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -675361683
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e9be7925c5e3f814899789b692c1e60d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -32838,7 +32820,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -34323,7 +34304,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -34900,7 +34880,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -35001,8 +34980,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   active: 0
-  force: 0
   somRampa: {fileID: 8300000, guid: 4d2a803708481b94b888ad642152ed3b, type: 3}
+  force: 0
 --- !u!60 &1328257660
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -35068,8 +35047,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -675361683
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e9be7925c5e3f814899789b692c1e60d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -35654,8 +35633,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   active: 0
-  force: 0
   somRampa: {fileID: 8300000, guid: 4d2a803708481b94b888ad642152ed3b, type: 3}
+  force: 0
 --- !u!60 &1384799112
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -35721,8 +35700,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -675361683
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e9be7925c5e3f814899789b692c1e60d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -36511,7 +36490,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -36854,13 +36832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b913bee8175a3024fa0215569d348c8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: 
-  id: 0
-  velocidade: 0
-  onTheGround: 0
-  alive: 0
-  invertSense: 0
-  rigidbody: {fileID: 0}
   somPulo: {fileID: 8300000, guid: 0b43f58e200dd124d9e1e5e6837fa311, type: 3}
   somMorte: {fileID: 8300000, guid: cbf367db5cae81b42a5c6e540d2c1f82, type: 3}
   somTombo: {fileID: 8300000, guid: 245f7f5e6dc39be4fb78515499d3f8fd, type: 3}
@@ -37808,8 +37779,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   active: 0
-  force: 0
   somRampa: {fileID: 8300000, guid: e8e0f63b77eed9e4593a02f6031abfdf, type: 3}
+  force: 0
 --- !u!212 &1449035820
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37845,8 +37816,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -675361683
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e9be7925c5e3f814899789b692c1e60d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -38158,7 +38129,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -39332,7 +39302,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -39728,7 +39697,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -40305,7 +40273,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -40813,7 +40780,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -42194,7 +42160,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -42664,7 +42629,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -43134,7 +43098,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -43376,7 +43339,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -43860,7 +43822,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -44068,8 +44029,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   active: 0
-  force: 0
   somRampa: {fileID: 8300000, guid: e8e0f63b77eed9e4593a02f6031abfdf, type: 3}
+  force: 0
 --- !u!60 &1941113360
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -44135,8 +44096,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -675361683
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e9be7925c5e3f814899789b692c1e60d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -45256,8 +45217,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   active: 0
-  force: 0
   somRampa: {fileID: 8300000, guid: 4d2a803708481b94b888ad642152ed3b, type: 3}
+  force: 0
 --- !u!60 &2019407008
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -45323,8 +45284,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -675361683
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e9be7925c5e3f814899789b692c1e60d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -45831,7 +45792,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   somTrapActivation: {fileID: 8300000, guid: 2b6326f6ebcc151489bd4bbff161db25, type: 3}
   somTrapDeactivation: {fileID: 8300000, guid: 6016c445efb4cfd44ace214f03f4ec53, type: 3}
-  id: 0
   sprites:
   - {fileID: 21300000, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
   - {fileID: 21300002, guid: db92757fab2d25e438c643b98e0f4fdd, type: 3}
@@ -46681,8 +46641,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   active: 0
-  force: 0
   somRampa: {fileID: 8300000, guid: e8e0f63b77eed9e4593a02f6031abfdf, type: 3}
+  force: 0
 --- !u!60 &2119961474
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -46748,8 +46708,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -675361683
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e9be7925c5e3f814899789b692c1e60d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

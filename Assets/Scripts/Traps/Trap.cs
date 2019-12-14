@@ -18,7 +18,6 @@ public class Trap : MonoBehaviour
     protected void Start()
     {
         id = getId();
-        //Debug.Log(gameObject.name  + " " + id);
         active = false;
     }
 
